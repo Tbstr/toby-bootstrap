@@ -1,0 +1,23 @@
+#
+#  This is the configuration file for your theme. Per default it is named the same way
+#  as your theme directory. You can write alternative configurations with different names.
+#  In this case you have to set the »themeConfig« parameter inside the toby.cfg.php.
+#
+#  Here you can set links to local and external stylesheets and javascripts. You can set
+#  them on a global scope as well as for certain controllers and actions. Place the global
+#  ones on top and mark the queried section with [] braces as in the follofing example:
+#
+#  stylesheets[all][] = http://www.link.to/external/file.css
+#  stylesheets[print][] = css/localstyleforprint.css
+#  
+#  javascripts[] = js/localscript.js
+#
+#  
+#  [index/home]
+#  
+#  javascripts[] = js/scriptonlyforindexhome.js
+#
+
+# The version query will be appended to the link paths to controll caching without renaming
+# the files. Increase or change this value if you have updates.
+versionQuery = 1
