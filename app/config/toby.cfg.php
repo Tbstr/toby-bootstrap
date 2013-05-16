@@ -10,6 +10,8 @@ $theme                  = 'default';
 $defaultResolve         = 'index/index';
 $defaultTitle           = 'Project Name';
 
+//$forceResolve           = 'controller/action';
+
 // -- MYSQL --
 $mySQLAutoConnect       = false;
 $mySQLAccessData        = array(
