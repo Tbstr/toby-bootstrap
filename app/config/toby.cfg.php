@@ -30,4 +30,5 @@ $logMySQLQueries        = true;
 $logRequestTimes        = true;
 
 // -- DEBUG --
+$displayErrors          = true;
 $fatalNotificationTo    = 'your@mailadress.com';
