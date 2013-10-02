@@ -29,8 +29,7 @@ $ git clone https://github.com/Tbstr/toby-bootstrap.git .
 Initialize the submodule:
 
 ```bash
-$ git submodule init
-$ git submodule update
+$ git submodule update --init
 ```
 
 
