@@ -1,3 +1,3 @@
-[submodule "toby"]
-	path = toby
+[submodule "app/toby"]
+	path = app/toby
 	url = https://github.com/Tbstr/toby.git

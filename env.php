@@ -14,5 +14,5 @@
 
 define('PROJECT_ROOT', dirname(__FILE__));
 define('APP_ROOT', PROJECT_ROOT.'/app');
+define('TOBY_ROOT', PROJECT_ROOT.'/app/toby');
 define('PUBLIC_ROOT', PROJECT_ROOT.'/public');
-define('TOBY_ROOT', PROJECT_ROOT.'/toby');
