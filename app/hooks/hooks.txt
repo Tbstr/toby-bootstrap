@@ -3,6 +3,7 @@ Files in here help to fire code on certain events while the application core is 
 
 Available hooks:
 
-config.hook.php     - fires after the configs are red
-init.hook.php       - fires after core init (before action run and render)
-resolved.hook.php   - fires after successful resolve (after action run)
+pre_init.hook.php           - fires before core init
+configs_loaded.hook.php     - fires after config files are red & interpreted
+post_init.hook.php          - fires after core init
+resolved.hook.php           - fires after successful resolve (after action run)
