@@ -2,10 +2,10 @@
 
 // -- APP VARS --
 $appURL                 = 'http://www.yourdomain.com';
-$secureAppURL           = 'https://www.yourdomain.com';
+$appURLSecure           = 'https://www.yourdomain.com';
 
 $theme                  = 'default';
-//$themeConfig           = 'default_v2';
+//$themeFunction          = 'default_v2';
 
 $defaultResolve         = 'index/index';
 $defaultTitle           = 'Project Name';
@@ -30,5 +30,7 @@ $logMySQLQueries        = true;
 $logRequestTimes        = true;
 
 // -- DEBUG --
+$errorsStrict           = true;
 $displayErrors          = true;
-$fatalNotificationTo    = 'your@mailadress.com';
+
+$fatalNotificationTo    = 'tobifriese@gmail.com';

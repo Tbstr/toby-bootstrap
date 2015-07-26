@@ -1,2 +1,5 @@
 .DS_Store
-/nbproject/
+
+/.idea
+/app/lib/vendor
+/composer.lock
