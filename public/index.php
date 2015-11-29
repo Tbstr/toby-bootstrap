@@ -1,8 +1,10 @@
 <?php
 
-// require & init
+use Toby\Toby;
+
+// require
 require_once '../env.php';
-require_once TOBY_ROOT.'/Toby.class.php';
+require_once TOBY_ROOT.'/Toby.php';
 
 // fetch request
 $request = empty($_GET['r']) ? 'index' : $_GET['r'];

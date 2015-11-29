@@ -23,7 +23,7 @@ $config = array(
     ),
     "appenders" => array(
         "sys-file" => array(
-            "class" => "Toby_Logging_Appender_RotatableFile",
+            "class" => "\\Toby\\Logging\\Appender\\LoggingAppenderRotatableFile",
             "layout" => array(
                 "class" => "LoggerLayoutPattern",
                 "params" => array(
@@ -35,7 +35,7 @@ $config = array(
             )
         ),
         "error-file" => array(
-            "class" => "Toby_Logging_Appender_RotatableFile",
+            "class" => "\\Toby\\Logging\\Appender\\LoggingAppenderRotatableFile",
             "layout" => array(
                 "class" => "LoggerLayoutPattern",
                 "params" => array(
@@ -55,7 +55,7 @@ $config = array(
             )
         ),
         "request-times-file" => array(
-            "class" => "Toby_Logging_Appender_RotatableFile",
+            "class" => "\\Toby\\Logging\\Appender\\LoggingAppenderRotatableFile",
             "layout" => array(
                 "class" => "LoggerLayoutPattern",
                 "params" => array(
@@ -67,7 +67,7 @@ $config = array(
             )
         ),
         "mysql-queries-file" => array(
-            "class" => "Toby_Logging_Appender_RotatableFile",
+            "class" => "\\Toby\\Logging\\Appender\\LoggingAppenderRotatableFile",
             "layout" => array(
                 "class" => "LoggerLayoutPattern",
                 "params" => array(
