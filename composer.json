@@ -4,6 +4,6 @@
     "vendor-dir": "app/lib/vendor"
   },
   "require": {
-    "apache/log4php": "2.3.0"
+    "apache/log4php": "2.*"
   }
 }

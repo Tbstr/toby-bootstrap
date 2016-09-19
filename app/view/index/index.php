@@ -1,2 +1,2 @@
 <h1>Toby is installed correctly</h1>
-<span>Now go and make something awesome!</span>
+<span><?=$this->call_to_action?></span>

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html>
     <head>
 
         <title><?=$this->title?></title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />        
-        <?php $this->placeHeaderInformation(); ?>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <?php $this->placeStyles(); ?>
+        <?php $this->placeJSVars(); ?>
+        <?php $this->placeScripts(); ?>
 
     </head>
 
